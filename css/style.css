@@ -1,0 +1,76 @@
+*{
+
+margin:0;
+padding:0;
+
+}
+
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+/********************
+  Header Area starts
+*********************/
+
+.mobile-app-banner {
+    background-image: url(../img/slider9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.mobile-app-banner-content {
+    color:white;
+    margin-top:260px;
+}
+
+.mobile-app-banner-content h1{
+    font-size: 56px;
+    color:white;
+    font-weight:600;
+}
+
+.mobile-app-banner-content p{
+    font-size: 18px;
+    color:white;
+    line-height:40px;
+    margin: 30px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height:1.42;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}
+
+
+.buttons .btn{
+    padding: 18px 40px;
+    margin-bottom: 40px;
+    margin-right: 13px;
+}
+
+
+.btn-pink, .btn-bleu {
+    background-color: #fb527a;
+    color: white;
+    font-weight: 600 !important;
+    margin-right: 10px;
+    font-size: 14px;
+}
